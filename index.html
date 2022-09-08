@@ -6,21 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productive App</title>
+    <link rel="stylesheet" href="css/center.css">
+    <link rel="stylesheet" href="css/clock.css">
+    <link rel="stylesheet" href="css/location.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="stylesheet" href="css/weather.css">
 </head>
 
 <body>
-    <form class="hidden" id="login-form">
-        <input required maxlength="15" type="text" placeholder="What's your name?">
-        <input type="submit" value="Log In">
-    </form>
-    <h2 id="clock">00:00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-        <input type="text" placeholder="Type a To-do and press Enter" required>
-    </form>
-    <ul id="todo-list"></ul>
+    <section class="center">
+        <form class="hidden" id="login-form">
+            <input required maxlength="15" type="text" placeholder="What's your name?">
+            <input type="submit" value="Log In">
+        </form>
+        <h2 id="clock">00:00:00</h2>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todo-form">
+            <input type="text" placeholder="Type a To-do and press Enter" required>
+        </form>
+        <ul id="todo-list"></ul>
+    </section>
     <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
         <span></span>
         <span></span>
     </div>
@@ -29,6 +41,7 @@
     <script src="js/background.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 
 </html>

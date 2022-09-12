@@ -1,0 +1,41 @@
+.bottom {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10%;
+    bottom: 0.5vh;
+    right: 5.5vh;
+}
+
+.quote_css {
+    
+    display: grid;
+    font-size: 2.8vh;
+    color: white;
+    font-weight: 530;
+    opacity: 0.95;
+    margin-bottom: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    /* text center */
+    /* text-align: center; */
+    font-family: 'Caveat', cursive;
+ 
+}
+
+
+.author_css {
+ 
+    display: block;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: 550;
+    opacity: 0.9;
+    /* text center */
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-family: 'Satisfy', cursive;
+}

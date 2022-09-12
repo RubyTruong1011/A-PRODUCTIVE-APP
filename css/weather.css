@@ -1,0 +1,22 @@
+#weather {
+    position: absolute;
+    display: grid;
+    grid-auto-flow: column;
+    left: 2.0vh;
+    top: 1.5vh;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 1.4vh;
+    font-size: 3.0vh;
+    height: 4.6vh;
+    border-radius: 100px;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 1vh;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+}

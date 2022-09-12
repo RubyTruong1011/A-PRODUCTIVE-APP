@@ -13,25 +13,37 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/todo.css">
     <link rel="stylesheet" href="css/weather.css">
+    <link rel="stylesheet" href="css/quote.css">
 </head>
 
 <body>
-    <section class="center">
-        <form class="hidden" id="login-form">
-            <input required maxlength="15" type="text" placeholder="What's your name?">
-            <input type="submit" value="Log In">
-        </form>
-        <h2 id="clock">00:00:00</h2>
-        <h1 id="greeting" class="hidden"></h1>
-        <form id="todo-form">
-            <input type="text" placeholder="Type a To-do and press Enter" required>
-        </form>
-        <ul id="todo-list"></ul>
+    <section class="center" style="position: relative">
+        <div>
+            <h2 id="clock">00:00:00</h2>
+        </div>
+        <div>
+            <form class="hidden" id="login-form">
+                <input class="inputYourName" required maxlength="15" type="text" placeholder="What's your name?">
+                <!-- <input type="submit" value="Log In"> -->
+            </form>
+        </div>
+        <div>
+            <h1 id="greeting" class="hidden"></h1>
+        </div>
+        <div class="todo-div">
+            <form id="todo-form">
+                <input type="text" placeholder="Write a To Do and press Enter" required maxlength="25">
+            </form>
+        </div>
+        <section class="todo-section">
+            <ul id="todo-list"></ul>
+        </section>
+
     </section>
-    <div id="quote">
+    <section id="quote" class="bottom">
         <span></span>
         <span></span>
-    </div>
+    </section>
     <div id="weather">
         <span></span>
         <span></span>

@@ -1,0 +1,32 @@
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.inputYourName {
+    width: 35vh;
+    height: 5.5vh;
+    font-size: 2.3vh;
+    color: rgb(8, 10, 19);
+    border: 2.8px solid rgba(9, 16, 67, 0.719);
+    background-color: rgba(255, 255, 255, 0.589);
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    outline: none;
+    opacity: 0.95;
+    /* margin-top: 2vh; */
+    margin-bottom: 1vh;
+    border-radius: 50px;
+}
+
+#greeting {
+    width: 35vh;
+    height: 3.5vh;
+    font-size: 5.5vh;
+    margin-top: 1vh; 
+    margin-bottom: 5vh; 
+}
